@@ -1,0 +1,78 @@
+/* Detail: Notify component */
+.wpsm-detail-item-notify label {
+    margin-bottom: 0.25rem;
+    display: block;
+    cursor: pointer;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    --tw-text-opacity: 1;
+    color: rgb(82 82 82 / var(--tw-text-opacity))
+}
+.wpsm-detail-item-notify-input {
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-radius: 0.125rem;
+    border-width: 1px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(229 229 229 / var(--tw-border-opacity));
+    padding: 0.5rem;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+.wpsm-detail-item-notify-textarea {
+    margin: 0px;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-radius: 0.125rem;
+    border-width: 1px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(229 229 229 / var(--tw-border-opacity));
+    padding: 0.5rem;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+.wpsm-detail-item-notify-button-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+.wpsm-detail-item-notify-button {
+    cursor: pointer;
+    border-radius: 0.375rem;
+    border-width: 2px;
+    border-style: solid;
+    --tw-border-opacity: 1;
+    border-color: rgb(0 0 0 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    text-decoration-line: none
+}
+.wpsm-detail-item-notify-button[disabled] {
+    cursor: not-allowed;
+    --tw-border-opacity: 1;
+    border-color: rgb(163 163 163 / var(--tw-border-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(163 163 163 / var(--tw-bg-opacity))
+}
+.wpsm-detail-item-notify-button:hover {
+    opacity: 0.75
+}
+

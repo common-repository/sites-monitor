@@ -1,0 +1,425 @@
+.wpsm-main-loader {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center
+}
+
+.wpsm-main-loader svg {
+
+    margin-top: 0px
+}
+
+.wpsm-table-container {
+
+    margin-bottom: 0.75rem;
+
+    overflow-x: auto;
+
+    border-radius: 0.375rem;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.wpsm-table {
+
+    margin-top: 0px !important;
+
+    margin-bottom: 0px !important;
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    padding: 0px;
+
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+
+.wpsm-table .wpsm-table-head {
+
+    border-width: 0px;
+
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+
+    font-weight: 600
+}
+
+.wpsm-table .wpsm-table-head th {
+
+    padding: 0.75rem;
+
+    text-align: left;
+
+    font-weight: 600;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(23 23 23 / var(--tw-text-opacity))
+}
+
+.wpsm-table .wpsm-table-head-label {
+
+    display: flex;
+
+    cursor: default;
+
+    -webkit-user-select: none;
+
+       -moz-user-select: none;
+
+            user-select: none;
+
+    align-items: center;
+
+    justify-content: space-between
+}
+
+.wpsm-table .wpsm-table-head-label > :not([hidden]) ~ :not([hidden]) {
+
+    --tw-space-x-reverse: 0;
+
+    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+
+    margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+.wpsm-table .wpsm-table-head-label {
+
+    border-width: 0px;
+
+    background-color: transparent;
+
+    padding: 0px;
+
+    font-weight: 600
+}
+
+.wpsm-table .wpsm-table-head-label-clickable {
+
+    cursor: pointer
+}
+
+.wpsm-table .wpsm-table-head-label svg {
+
+    margin: 0px
+}
+
+.wpsm-table .wpsm-table-head-label span {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-start
+}
+
+.wpsm-table .wpsm-table-body {
+
+    font-size: 0.875rem;
+
+    line-height: 1.25rem
+}
+
+.wpsm-table .wpsm-table-body tr {
+
+    border-width: 0px
+}
+
+.wpsm-table .wpsm-table-body tr:nth-child(odd) {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(250 250 250 / var(--tw-bg-opacity))
+}
+
+.wpsm-table .wpsm-table-body td {
+
+    min-width: 165px;
+
+    padding: 0.75rem;
+
+    text-align: left
+}
+
+.wpsm-table .wpsm-table-link {
+
+    --tw-text-opacity: 1;
+
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+
+    text-decoration-line: none
+}
+
+.wpsm-table .wpsm-table-link:hover {
+
+    text-decoration-line: underline
+}
+
+.wpsm-table .wpsm-table-label-collection {
+
+    margin: 0px;
+
+    list-style-type: none
+}
+
+.wpsm-table .wpsm-table-label-collection > :not([hidden]) ~ :not([hidden]) {
+
+    --tw-space-x-reverse: 0;
+
+    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+
+    margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+.wpsm-table .wpsm-table-label-collection {
+
+    padding: 0px
+}
+
+.wpsm-table .wpsm-table-label-collection li {
+
+    margin: 0px;
+
+    display: inline-block;
+
+    padding: 0px
+}
+
+.wpsm-table .wpsm-table-badge-collection {
+
+    margin: 0px;
+
+    list-style-type: none
+}
+
+.wpsm-table .wpsm-table-badge-collection > :not([hidden]) ~ :not([hidden]) {
+
+    --tw-space-x-reverse: 0;
+
+    margin-right: calc(-0.25rem * var(--tw-space-x-reverse));
+
+    margin-left: calc(-0.25rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+.wpsm-table .wpsm-table-badge-collection {
+
+    padding: 0px
+}
+
+.wpsm-table .wpsm-table-badge-collection li {
+
+    margin: 0px;
+
+    display: inline-block;
+
+    padding: 0px
+}
+
+.wpsm-badge {
+
+    display: flex;
+
+    height: 1.5rem;
+
+    width: 1.5rem;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 9999px;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+
+    --tw-text-opacity: 1;
+
+    color: rgb(20 83 45 / var(--tw-text-opacity))
+}
+
+.wpsm-badge.wpsm-badge-blue {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+
+    --tw-text-opacity: 1;
+
+    color: rgb(30 58 138 / var(--tw-text-opacity))
+}
+
+.wpsm-badge.wpsm-badge-red {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+
+    --tw-text-opacity: 1;
+
+    color: rgb(127 29 29 / var(--tw-text-opacity))
+}
+
+.wpsm-label {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 0.25rem;
+
+    padding-left: 0.25rem;
+
+    padding-right: 0.25rem;
+
+    padding-top: 0.125rem;
+
+    padding-bottom: 0.125rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(82 82 82 / var(--tw-text-opacity))
+}
+
+.wpsm-label.wpsm-label-green {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+
+    --tw-text-opacity: 1;
+
+    color: rgb(20 83 45 / var(--tw-text-opacity))
+}
+
+.wpsm-label.wpsm-label-orange {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(254 215 170 / var(--tw-bg-opacity));
+
+    --tw-text-opacity: 1;
+
+    color: rgb(124 45 18 / var(--tw-text-opacity))
+}
+
+.wpsm-label.wpsm-label-desc {
+
+    font-size: 0.75rem;
+
+    line-height: 1rem
+}
+
+.wpsm-paging {
+
+    margin-top: 1.5rem;
+
+    display: flex;
+
+    width: 100%;
+
+    justify-content: space-between
+}
+
+.wpsm-paging-prev,
+	.wpsm-paging-next {
+
+    cursor: pointer;
+
+    border-radius: 0.25rem;
+
+    border-style: none;
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+
+    padding-top: 0.375rem;
+
+    padding-bottom: 0.375rem;
+
+    padding-left: 0.75rem;
+
+    padding-right: 0.75rem;
+
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(255 255 255 / var(--tw-text-opacity))
+}
+
+.wpsm-paging-prev:hover,
+	.wpsm-paging-next:hover {
+
+    --tw-bg-opacity: 1;
+
+    background-color: rgb(64 64 64 / var(--tw-bg-opacity))
+}
+
+.wpsm-paging-prev:disabled, .wpsm-paging-next:disabled {
+
+    visibility: hidden
+}
+
+.wpsm-search {
+
+    margin-bottom: 1.5rem;
+
+    border-radius: 0.375rem;
+
+    border-width: 0px;
+
+    padding-top: 0.5rem;
+
+    padding-bottom: 0.5rem;
+
+    padding-left: 0.75rem;
+
+    padding-right: 0.75rem;
+
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+.wpsm-search:focus {
+
+    outline: 2px solid transparent;
+
+    outline-offset: 2px;
+
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+
+    --tw-ring-opacity: 1;
+
+    --tw-ring-color: rgb(4 120 87 / var(--tw-ring-opacity))
+}
+

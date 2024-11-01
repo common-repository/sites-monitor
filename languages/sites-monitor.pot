@@ -1,0 +1,670 @@
+# Copyright (C) 2024 Verdant Studio
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sites Monitor 1.7.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sites-monitor\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-27T11:39:20+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: sites-monitor\n"
+
+#. Plugin Name of the plugin
+#: sites-monitor.php
+#: src/Providers/SettingsServiceProvider.php:56
+#: src/Providers/SettingsServiceProvider.php:57
+msgid "Sites Monitor"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: sites-monitor.php
+msgid "https://www.verdant.studio/plugins/sites-monitor"
+msgstr ""
+
+#. Description of the plugin
+#: sites-monitor.php
+msgid "Monitor your websites and be in charge of the data."
+msgstr ""
+
+#. Author of the plugin
+#: sites-monitor.php
+msgid "Verdant Studio"
+msgstr ""
+
+#. Author URI of the plugin
+#: sites-monitor.php
+msgid "https://www.verdant.studio"
+msgstr ""
+
+#: src/Controllers/Api/ApiController.php:65
+msgid "You do not have permissions to manage options."
+msgstr ""
+
+#: src/Controllers/Api/SiteApiController.php:175
+msgid "Nameless"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:76
+msgid "Sites"
+msgstr ""
+
+#. translators: %s: latest version.
+#: src/Providers/MonitorServiceProvider.php:77
+#: assets/js/front/components/list/Table.js:95
+#: dist/sites-monitor-list/view.js:4
+msgid "Site"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:78
+#: src/Providers/MonitorServiceProvider.php:81
+msgid "New Site"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:79
+msgid "Add New Site"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:80
+msgid "Edit Site"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:82
+msgid "View Site"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:83
+msgid "Search Sites"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:84
+msgid "No Sites Found"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:85
+msgid "No Sites found in Trash"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:112
+#: src/Providers/MonitorServiceProvider.php:122
+#: assets/js/front/components/detail/General.js:254
+#: assets/premium/blocks/extend-view.js:31
+#: dist/premium.js:1
+#: dist/sites-monitor/view.js:1
+msgid "Clients"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:113
+msgid "Client"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:114
+msgid "Add New Client"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:115
+msgid "Edit Client"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:116
+msgid "New Client"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:117
+msgid "Update Client"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:118
+msgid "All Clients"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:119
+msgid "Search Clients"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:120
+msgid "Parent Client"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:121
+msgid "Parent Client:"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:136
+#: src/Providers/MonitorServiceProvider.php:146
+#: assets/js/front/components/detail/General.js:260
+#: assets/premium/blocks/extend-view.js:39
+#: dist/premium.js:1
+#: dist/sites-monitor/view.js:1
+msgid "Maintainers"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:137
+msgid "Maintainer"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:138
+msgid "Add New Maintainer"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:139
+msgid "Edit Maintainer"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:140
+msgid "New Maintainer"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:141
+msgid "Update Maintainer"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:142
+msgid "All Maintainers"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:143
+msgid "Search Maintainers"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:144
+msgid "Parent Maintainer"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:145
+msgid "Parent Maintainer:"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:167
+#: src/Providers/MonitorServiceProvider.php:191
+msgid "Client Email address(es)"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:171
+#: src/Providers/MonitorServiceProvider.php:197
+msgid "A comma separated list of client email addresses."
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:242
+msgid "Last sync"
+msgstr ""
+
+#: src/Providers/MonitorServiceProvider.php:262
+msgid "Unknown"
+msgstr ""
+
+#: assets/blocks/sites-monitor-list/edit.js:26
+#: dist/sites-monitor-list/index.js:1
+msgid "Show site health"
+msgstr ""
+
+#: assets/blocks/sites-monitor-list/edit.js:33
+#: dist/sites-monitor-list/index.js:1
+msgid "Show WordPress version"
+msgstr ""
+
+#: assets/blocks/sites-monitor-list/edit.js:40
+#: dist/sites-monitor-list/index.js:1
+msgid "Show plugin updates"
+msgstr ""
+
+#: assets/blocks/sites-monitor-list/edit.js:50
+#: dist/sites-monitor-list/index.js:1
+msgid "Show clients"
+msgstr ""
+
+#: assets/blocks/sites-monitor-list/edit.js:57
+#: dist/sites-monitor-list/index.js:1
+msgid "Show maintainers"
+msgstr ""
+
+#: assets/blocks/sites-monitor-list/edit.js:69
+#: dist/sites-monitor-list/index.js:1
+msgid "Items per page"
+msgstr ""
+
+#: assets/blocks/sites-monitor-list/edit.js:79
+#: dist/sites-monitor-list/index.js:1
+msgid "This block displays a list of all the sites on the front-end"
+msgstr ""
+
+#: assets/blocks/sites-monitor/edit.js:40
+#: dist/sites-monitor/index.js:1
+msgid "Site records not found"
+msgstr ""
+
+#: assets/blocks/sites-monitor/edit.js:48
+#: dist/sites-monitor/index.js:1
+msgid "Site records found"
+msgstr ""
+
+#: assets/blocks/sites-monitor/edit.js:66
+#: dist/sites-monitor/index.js:1
+msgid "This block displays information about a site on the front-end"
+msgstr ""
+
+#: assets/blocks/sites-monitor/edit.js:73
+#: dist/sites-monitor/index.js:1
+msgid "Notes about this site"
+msgstr ""
+
+#: assets/blocks/sites-monitor/edit.js:90
+#: dist/sites-monitor/index.js:1
+msgid "Optional things to note…"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:15
+#: assets/premium/admin/containers/Settings.js:16
+#: dist/admin.js:1
+#: dist/adminPremium.js:1
+msgid "Hourly"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:19
+#: assets/premium/admin/containers/Settings.js:20
+#: dist/admin.js:1
+#: dist/adminPremium.js:1
+msgid "Twice daily"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:23
+#: assets/premium/admin/containers/Settings.js:24
+#: dist/admin.js:1
+#: dist/adminPremium.js:1
+msgid "Daily"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:27
+#: assets/premium/admin/containers/Settings.js:28
+#: dist/admin.js:1
+#: dist/adminPremium.js:1
+msgid "Weekly"
+msgstr ""
+
+#. translators: %s: Error.
+#: assets/js/admin/containers/Settings.js:129
+#: assets/premium/admin/containers/Settings.js:151
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Failed with error: %s"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:146
+#: assets/js/admin/containers/Settings.js:151
+#: assets/premium/admin/containers/Settings.js:168
+#: assets/premium/admin/containers/Settings.js:173
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Type of website"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:190
+#: assets/premium/admin/containers/Settings.js:212
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Security advise: as an extra precaution we advise you to make sure this website is used as an internal tool and can not be accessed publicly since a monitor site may contain information of your other sites such as which plugins are used and their versions."
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:202
+#: assets/premium/admin/containers/Settings.js:224
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Connection Settings"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:205
+#: assets/premium/admin/containers/Settings.js:227
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "These are the settings to the site which is your monitor."
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:213
+#: assets/premium/admin/containers/Settings.js:235
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "URL"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:232
+#: assets/premium/admin/containers/Settings.js:254
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Username"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:251
+#: assets/premium/admin/containers/Settings.js:273
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Application password"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:271
+#: assets/premium/admin/containers/Settings.js:293
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Interval"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:286
+#: assets/premium/admin/containers/Settings.js:308
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Choose interval"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:309
+#: assets/premium/admin/containers/Settings.js:339
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Save"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:318
+#: assets/premium/admin/containers/Settings.js:348
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Getting started"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:322
+#: assets/premium/admin/containers/Settings.js:352
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Jump-start your journey with our easy-to-follow"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:332
+#: assets/premium/admin/containers/Settings.js:362
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Getting Started guide"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:344
+#: assets/premium/admin/containers/Settings.js:374
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Status"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:357
+#: assets/premium/admin/containers/Settings.js:387
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "Next synchronization at"
+msgstr ""
+
+#: assets/js/admin/containers/Settings.js:363
+#: assets/premium/admin/containers/Settings.js:393
+#: dist/admin.js:4
+#: dist/adminPremium.js:4
+msgid "There is no synchronization active"
+msgstr ""
+
+#: assets/js/front/components/detail/DirectorySizes.js:38
+#: dist/sites-monitor/view.js:4
+msgid "Cannot find directory sizes"
+msgstr ""
+
+#: assets/js/front/components/detail/DirectorySizes.js:53
+#: dist/sites-monitor/view.js:4
+msgid "Directory Sizes"
+msgstr ""
+
+#: assets/js/front/components/detail/DirectorySizes.js:92
+#: dist/sites-monitor/view.js:4
+msgid "WordPress"
+msgstr ""
+
+#: assets/js/front/components/detail/DirectorySizes.js:129
+#: dist/sites-monitor/view.js:4
+msgid "Themes"
+msgstr ""
+
+#: assets/js/front/components/detail/DirectorySizes.js:174
+#: assets/js/front/components/detail/Plugins.js:53
+#: assets/js/front/components/list/Table.js:118
+#: dist/sites-monitor-list/view.js:4
+#: dist/sites-monitor/view.js:4
+msgid "Plugins"
+msgstr ""
+
+#: assets/js/front/components/detail/DirectorySizes.js:197
+#: dist/sites-monitor/view.js:4
+msgid "Uploads"
+msgstr ""
+
+#: assets/js/front/components/detail/DirectorySizes.js:228
+#: dist/sites-monitor/view.js:4
+msgid "Database"
+msgstr ""
+
+#: assets/js/front/components/detail/DirectorySizes.js:258
+#: dist/sites-monitor/view.js:4
+msgid "Total"
+msgstr ""
+
+#: assets/js/front/components/detail/General.js:34
+#: dist/sites-monitor/view.js:1
+msgid "Cannot find client(s)"
+msgstr ""
+
+#: assets/js/front/components/detail/General.js:44
+#: dist/sites-monitor/view.js:1
+msgid "Cannot find maintainer(s)"
+msgstr ""
+
+#: assets/js/front/components/detail/General.js:219
+#: dist/sites-monitor/view.js:1
+msgid "General"
+msgstr ""
+
+#: assets/js/front/components/detail/General.js:238
+#: dist/sites-monitor/view.js:1
+msgid "Site address"
+msgstr ""
+
+#: assets/js/front/components/detail/General.js:244
+#: dist/sites-monitor/view.js:1
+msgid "Users"
+msgstr ""
+
+#: assets/js/front/components/detail/General.js:270
+#: dist/sites-monitor/view.js:1
+msgid "WP version"
+msgstr ""
+
+#: assets/js/front/components/detail/Insights.js:41
+#: dist/sites-monitor/view.js:4
+msgid "Cannot get link to site"
+msgstr ""
+
+#: assets/js/front/components/detail/Insights.js:58
+#: dist/sites-monitor/view.js:4
+msgid "Insights"
+msgstr ""
+
+#. translators: %s: latest version.
+#: assets/js/front/components/detail/Plugins.js:39
+#: dist/sites-monitor/view.js:4
+msgid "Cannot find plugins"
+msgstr ""
+
+#: assets/js/front/components/detail/Plugins.js:68
+#: dist/sites-monitor/view.js:4
+msgid "Name"
+msgstr ""
+
+#: assets/js/front/components/detail/Plugins.js:69
+#: dist/sites-monitor/view.js:4
+msgid "Update"
+msgstr ""
+
+#: assets/js/front/components/detail/Plugins.js:70
+#: assets/js/front/components/list/Table.js:112
+#: dist/sites-monitor-list/view.js:4
+#: dist/sites-monitor/view.js:4
+msgid "Version"
+msgstr ""
+
+#: assets/js/front/components/detail/Plugins.js:71
+#: dist/sites-monitor/view.js:4
+msgid "Available"
+msgstr ""
+
+#: assets/js/front/components/detail/Plugins.js:83
+#: dist/sites-monitor/view.js:4
+msgid "available"
+msgstr ""
+
+#: assets/js/front/components/detail/Plugins.js:84
+#: dist/sites-monitor/view.js:4
+msgid "none"
+msgstr ""
+
+#: assets/js/front/components/list/Table.js:106
+#: dist/sites-monitor-list/view.js:4
+msgid "Site Health"
+msgstr ""
+
+#: assets/js/front/components/list/Table.js:225
+#: dist/sites-monitor-list/view.js:4
+msgid "Loading sites"
+msgstr ""
+
+#: assets/js/front/components/list/Table.js:239
+#: dist/sites-monitor-list/view.js:4
+msgid "Search…"
+msgstr ""
+
+#: assets/js/front/components/list/Table.js:302
+#: dist/sites-monitor-list/view.js:4
+msgid "No sites yet… you should add one! :-)"
+msgstr ""
+
+#: assets/js/front/components/list/Table.js:316
+#: dist/sites-monitor-list/view.js:4
+msgid "Previous"
+msgstr ""
+
+#: assets/js/front/components/list/Table.js:323
+#: dist/sites-monitor-list/view.js:4
+msgid "Next"
+msgstr ""
+
+#: assets/premium/admin/components/NotifyUpdates.js:17
+#: dist/adminPremium.js:1
+msgid "Site [site] has been updated"
+msgstr ""
+
+#: assets/premium/admin/components/NotifyUpdates.js:66
+#: dist/adminPremium.js:1
+msgid "Enable e-mail"
+msgstr ""
+
+#: assets/premium/admin/components/NotifyUpdates.js:84
+#: assets/premium/blocks/components/detail/Notify.js:126
+#: dist/adminPremium.js:1
+#: dist/premium.js:1
+msgid "Subject"
+msgstr ""
+
+#: assets/premium/admin/components/NotifyUpdates.js:94
+#: dist/adminPremium.js:1
+msgid "You can use the following placeholders: [client] and [site]"
+msgstr ""
+
+#: assets/premium/admin/components/NotifyUpdates.js:98
+#: assets/premium/blocks/components/detail/Notify.js:135
+#: dist/adminPremium.js:1
+#: dist/premium.js:1
+msgid "Body"
+msgstr ""
+
+#: assets/premium/admin/containers/Settings.js:91
+#: dist/adminPremium.js:4
+msgid "subject may not be empty when e-mail is enabled"
+msgstr ""
+
+#: assets/premium/admin/containers/Settings.js:97
+#: dist/adminPremium.js:4
+msgid "e-mail body may not be empty when e-mail is enabled"
+msgstr ""
+
+#: assets/premium/blocks/components/detail/Notes.js:21
+#: dist/premium.js:1
+msgid "Notes"
+msgstr ""
+
+#: assets/premium/blocks/components/detail/Notes.js:26
+#: dist/premium.js:1
+msgid "There are no notes yet"
+msgstr ""
+
+#: assets/premium/blocks/components/detail/Notify.js:56
+#: dist/premium.js:1
+msgid "You need to be logged in to be able to send email"
+msgstr ""
+
+#: assets/premium/blocks/components/detail/Notify.js:62
+#: dist/premium.js:1
+msgid "Could not retrieve settings"
+msgstr ""
+
+#: assets/premium/blocks/components/detail/Notify.js:110
+#: dist/premium.js:1
+msgid "Notify"
+msgstr ""
+
+#: assets/premium/blocks/components/detail/Notify.js:151
+#: dist/premium.js:1
+msgid "Send email"
+msgstr ""
+
+#: assets/premium/blocks/components/detail/Notify.js:158
+#: dist/premium.js:1
+msgid "Sending e-mail seems to be turned off in your settings"
+msgstr ""
+
+#: dist/adminPremium.js:1
+msgid ""
+"Dear [client],\n"
+"\n"
+"We are pleased to inform you that your website has been successfully updated to the latest version.\n"
+"\n"
+"While we have thoroughly tested the changes and do not anticipate any issues, we recommend that you also review the site to ensure everything is functioning correctly.\n"
+"\n"
+"Please note that this is an automated message.\n"
+"\n"
+"Best regards"
+msgstr ""
+
+#: assets/blocks/sites-monitor-list/block.json
+#: dist/sites-monitor-list/block.json
+msgctxt "block title"
+msgid "Sites Monitor List"
+msgstr ""
+
+#: assets/blocks/sites-monitor-list/block.json
+#: dist/sites-monitor-list/block.json
+msgctxt "block description"
+msgid "Display a list of all the sites"
+msgstr ""
+
+#: assets/blocks/sites-monitor/block.json
+#: dist/sites-monitor/block.json
+msgctxt "block title"
+msgid "Sites Monitor"
+msgstr ""
+
+#: assets/blocks/sites-monitor/block.json
+#: dist/sites-monitor/block.json
+msgctxt "block description"
+msgid "Display information about a site"
+msgstr ""

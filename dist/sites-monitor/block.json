@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wp-sites-monitor/sites-monitor",
+  "title": "Sites Monitor",
+  "category": "widgets",
+  "icon": "desktop",
+  "description": "Display information about a site",
+  "version": "1.0.0",
+  "textdomain": "sites-monitor",
+  "attributes": {
+    "notes": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "multiple": false,
+    "reusable": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

@@ -1,0 +1,48 @@
+<?php
+/**
+ * @license MIT
+ *
+ * Modified by verdantstudio on 27-October-2024 using {@see https://github.com/BrianHenryIE/strauss}.
+ */
+
+namespace WPSitesMonitor\Vendor_Prefixed\Doctrine\Common\Annotations\Annotation;
+
+use RuntimeException;
+
+use function is_array;
+use function is_string;
+use function json_encode;
+use function sprintf;
+
+/**
+ * Annotation that can be used to signal to the parser to ignore specific
+ * annotations during the parsing process.
+ *
+ * @Annotation
+ */
+final class IgnoreAnnotation
+{
+    /** @phpstan-var list<string> */
+    public $names;
+
+    /**
+     * @phpstan-param array{value: string|list<string>} $values
+     *
+     * @throws RuntimeException
+     */
+    public function __construct(array $values)
+    {
+        if (is_string($values['value'])) {
+            $values['value'] = [$values['value']];
+        }
+
+        if (! is_array($values['value'])) {
+            throw new RuntimeException(sprintf(
+                '@IgnoreAnnotation expects either a string name, or an array of strings, but got %s.',
+                json_encode($values['value'])
+            ));
+        }
+
+        $this->names = $values['value'];
+    }
+}
